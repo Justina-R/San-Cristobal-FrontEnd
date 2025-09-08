@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fullstack 2025</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+
+<body>
+  <h1>Formación FullStack 💖</h1>
+  <p>Hola!</p>
+  <!-- Ejercicios <3 -->
+
+  <!-- 1) Agregar un heading nivel 2, y 2 parrafos. -->
+  <h2>Bienvenidos a mi página</h2>
+  <p>Este es el primer párrafo de ejemplo.</p>
+  <p>Este es el segundo párrafo de ejemplo.</p>
+  <!-- 2) Crear una ordered list con 3 items.-->
+  <h3>Lista ordenada</h3>
+  <ol>
+    <li>Paso 1</li>
+    <li>Paso 2</li>
+    <li>Paso 3</li>
+  </ol>
+  <!-- 3) Crear una unordered list con 3 items. -->
+  <h3>Lista desordenada</h3>
+  <ul>
+    <li>Papas</li>
+    <li>Zanahoria</li>
+    <li>Huevos</li>
+  </ul>
+  <!-- 4) Crear 2 <div>, dentro de cada div: agregar una imagen, un h2 para mostrar un titulo para esa imagen y un <p> con breve descripcion. -->
+  <div>
+    <img
+      src="https://www.laclinicaveterinaria.com/wp-content/uploads/2022/02/Captura-de-pantalla-2022-02-02-a-las-13.49.23_resultado-scaled.webp"
+      alt="Perrito tierno" width="250">
+    <h2>Miren este perrito tierno</h2>
+    <p>Descripción del perrito 🐶.</p>
+  </div>
+
+  <div>
+    <img
+      src="https://pampermut.com/blog/wp-content/uploads/2020/05/Como-es-el-caracter-de-tu-perro-segun-su-horoscopo-1155x770.jpg"
+      alt="Perro" width="300">
+
+    <h2>Este es OTRO perrito tierno</h2>
+    <p>Descripción del segundo perrito 💞.</p>
+  </div>
+  <!-- 5) Crear 3 enlaces/links apuntando a sitios diferentes. -->
+  <h3>Enlaces</h3>
+  <a href="https://www.google.com" target="_blank">Google</a><br>
+  <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a><br>
+  <a href="https://www.github.com" target="_blank">GitHub</a>
+  <!-- 6) Crear menú de navegación <nav> usando una unordered list <ul> que contenga 3 items con links cada uno. -->
+  <nav>
+    <ul>
+      <li><a href="#home">Inicio</a></li>
+      <ul>
+        <li><a href="#item1">Item 1</a></li>
+        <li><a href="#item2">Item 2</a></li>
+        <li><a href="#item3">Item 3</a></li>
+      </ul>
+      <li><a href="#about">Acerca de</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+  </nav>
+  <!-- 7) Crear un form con un input tipo texto, que tenga placeholder Buscar y un botón que diga Buscar.  -->
+  <form action="#" method="get">
+    <input type="text" placeholder="Buscar">
+    <button type="submit">Buscar</button>
+    <!-- 8) Agregar al form, un input tipo texto para Nombre. -->
+    <br><br>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+    <br><br>
+    <!-- Ejercicio 14 -->
+    <label for="password">Contraseña:</label>
+    <input type="password" id="password" name="password" placeholder="Tu contraseña">
+    <br><br>
+    <label for="dateOfBirth">Fecha de nacimiento:</label>
+    <input type="date" id="dateOfBirth" name="dateOfBirth">
+    <!-- 9) Agregar al form, un textarea para Descripción. -->
+    <br><br>
+    <label for="descripcion">Descripción:</label>
+    <br>
+    <textarea id="descripcion" name="descripcion" rows="4" cols="50" placeholder="Escribe aquí..."></textarea>
+
+  </form>
+  <!-- 10) Crear footer que contenga el siguiente párrafo: &copy; 2024 Fullstack. -->
+  <footer>
+    <p>&copy; 2024 Fullstack.</p>
+  </footer>
+  <!-- 11) Plus: agregar placeholders en los inputs y textarea -->
+  <!-- 12) Plus: agregar labels y ids para input y textarea. -->
+  <!-- 13) Plus: agregar 3 items más, dentro de un item de la <nav>, usando <ul> y <li> -->
+  <!-- 14) Plus: agregar 2 inputs más con labels y ids que elijan. -->
+
+  <!-- Más práctica y ejercicios online en: https://www.w3schools.com/html/html_exercises.asp -->
+
+  <!-- Documentación:
+   https://www.w3schools.com/html/html_intro.asp 
+   https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML -->
+
+
+
+  <!--Ejercicios CSS <3
+    
+Documentación CSS en: https://www.w3schools.com/css/default.asp
+Documentación Fonts: https://www.w3schools.com/css/css_font_google.asp 
+Práctica y ejercicios online: https://www.w3schools.com/css/exercise.asp
+
+
+Ejercicio 1: 
+Aplicar color de fondo del cuerpo (body).
+Aplicar color de texto del título <h1>.
+Aplicar colores a los párrafos.
+
+
+Ejercicio 2: Estilos de fuentes
+Cambiar la fuente del título <h1> a Arial.
+Cambiar el tamaño de la fuente del párrafo a 18px.
+Plus: Agregar otra fuente de https://fonts.google.com/ y usarla en algún párrafo.
+
+
+Ejercicio 3: Bordes y márgenes
+Aplicar un borde sólido de 1px de color claro a un párrafo (<p>).
+Aumentar el margen superior del título <h1> a 20px.
+Agregar un padding de 10px alrededor del contenido del párrafo.
+
+
+Ejercicio 4: Estilos en botón
+Cambiar el color de fondo del botón a verde (#28a745) y el color del texto a blanco.
+Agregar bordes redondeados (border-radius) de 5px.
+Agregar padding 10px.
+Aplicar ancho del botón a 100px.
+Establecer margen superior e inferior de 10px.
+Quitar el color del borde del botón.
+
+
+Ejercicio 5: Inputs del formulario
+Agregar padding de 5px.
+Quitar bordes.
+Agregar márgenes superiores e inferiores de 5px entre cada control
+Plus: Aplicar un tipo de fuente para los labels de cada control.
+Plus: Aplicar width y height al textarea. Ejemplo: 300px ancho y 100px alto.
+
+
+Ejercicio 6: Footer
+Aplicar color de fondo.
+Cambiar color del texto del footer.
+Agregar padding de 20px.
+Alinear texto al centro.
+
+
+Ejercicio 7: Header
+Crear etiqueta header con un texto.
+Aplicar color de fondo y color de texto.
+Agregar padding de 50px.
+Alinear textos al centro.
+
+
+Ejercicio 8: Nav menu
+Aplicar color de fondo a la etiqueta nav y color de texto.
+Eliminar las bullets de la <ul> con: list-style: none;
+En cada item <li>, agregar padding 10px y aplicar display: inline-block; para mostrar los elementos en línea.
+Plus: Ocultar el submenu (ul dentro del li) con display: none;
+
+
+Ejercicio 9: Diseño responsive - Media queries
+Agregar media queries para que el color de fondo del body tenga un color diferente en distintas pantallas. 
+Ejemplos: @media screen and (min-width: 768px) {}
+@media screen and (min-width: 1280px) {}
+
+
+
+
+-->
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+      }
+
+      .container {
+        display: flex;
+        gap: 10px;
+        background-color: lightgray;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+      }
+
+      .item {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px;
+        text-align: center;
+      }
+
+      /* Media queries */
+      @media (min-width: 600px) {
+        .container {
+          background-color: lightblue;
+        }
+      }
+
+      @media (max-width: 400px) {
+        .container {
+          background-color: lightcoral;
+        }
+      }
+
+      /* Ejercicio 2 */
+      #columnas {
+        flex-direction: column;
+      }
+
+      /* Ejercicio 3 */
+      #columnasInversas {
+        flex-direction: column-reverse;
+      }
+
+      /* Ejercicio 4 */
+      #filasInversas {
+        flex-direction: row-reverse;
+      }
+
+      /* Ejercicio 5 */
+      #columnasInversas {
+        flex-direction: column-reverse;
+      }
